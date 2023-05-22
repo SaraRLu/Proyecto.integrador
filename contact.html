@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="img/LOGOazul_page-0001.jpg" alt="logo">
+        <div class="search-container">
+            <input type="text" id="termino" class="search-input" placeholder="Ingrese su búsqueda">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="create.html">Alta</a>
+            <a href="about-us.html">Nosotros</a>
+            <button class="carro" title="Abrir carrito"><img class="carri" src="img/carrito_page-0001.jpg" alt="carrito de compra"></button>
+        </nav>
+    </header>
+
+
+    <main class="caja2">
+        
+        <section class="cart-modal-container">
+            <button class="cerrar" title="Cerrar carrito">X</button>
+            <p> Para agregar productos al carrito es muy facil, solo debes de escojer el producto dar click en el carrito y llenar la inforacion personal.</p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th colspan="2">Producto </th>
+                    <th>Precio</th>
+                    <th>Cant.</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <img src="img/products/bebe-nenuco.jpeg" alt="bebe nenuco"></td>
+                        <td>Bebe Nenuco</td>
+                        <td>$339.900</td>
+                        <td>1</td>
+                        <td>$339.900</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/camión-bomberos.jpeg" alt="camion bomberos"></td>
+                        <td>Camion Bomberos</td>
+                        <td>$159.900</td>
+                        <td>1</td>
+                        <td>$159.900</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/computador-didactico.jpeg" alt="computador didactico"></td>
+                        <td>Computador Didactico</td>
+                        <td>$143.903</td>
+                        <td>1</td>
+                        <td>$143.903</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/juego-de-mesa-risk.jpeg" alt="juego de mesa risk"></td>
+                        <td>Juego de mesa Risk</td>
+                        <td>$189.900</td>
+                        <td>1</td>
+                        <td>$189.900</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/set-musical.jpeg" alt="set musical"></td>
+                        <td>Set Musical</td>
+                        <td>$59.990</td>
+                        <td>1</td>
+                        <td>$59.990</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"></td>
+                            <td>$893.593</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+            </table>
+            <p> Verifica la informacion del producto, todos los campos con * son obligatorios.</p>
+            <p>Dentro de 3 dias habiles estara llegando tu Alta Jueguete!</p>
+            <p>Gracias por confiar en nosotros</p>
+        </section>
+
+
+
+
+        <h1 class="contac">Contact</h1>
+    <form class="conta">
+            <label for="name">Name:</label>
+            <input type="text" id="nombre" required >
+
+            <label for="email">e-mail</label>
+            <input type="email" id="email" required>
+
+            <label for="Comments">Comments</label>
+            <textarea name="Comments" id="comentarios" cols="30" rows="10" maxlength="20"></textarea> <br>
+            
+            
+
+            <input  id="enviar" type="submit" value="Send" disabled> 
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <div class="footer-logo">
+    <img src="img/LOGOazul_page-0001.jpg" alt="logo">
+    <div>
+        <h2>Proyecto Integrador: Juguetería Cósmica</h2>
+        <p>Sara Minelly Rojas Lujan</p>
+    </div>
+    </div>
+    <div class="info-footer">
+        <div>
+            <ul>
+                <li><a href="#"> Envios</a></li>
+                <li><a href="#">Top 10 de los mas vendidos</a></li>
+                <li><a href="#">Quienes somos</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="create.html">Alta</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about-us.html">Nosotros</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Términos</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Quieres trabajar con nosotros?</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <p> © 2023 Jugueteria Cosmica</p>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/modules/contact.js"></script>
+
+</body>
+</html>

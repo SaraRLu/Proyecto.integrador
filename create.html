@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alta</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="img/LOGOazul_page-0001.jpg" alt="logo">
+        <div class="search-container">
+            <input type="text" id="termino" class="search-input" placeholder="Ingrese su búsqueda">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contact.html">Contacto</a>
+            <a href="about-us.html">Nosotros</a>
+            <button class="carro" title="Abrir carrito"><img class="carri" src="img/carrito_page-0001.jpg" alt="carrito de compra"></button>
+        </nav>
+    </header>
+
+
+<!-- 
+    <main>
+        <h1>Las Manillas</h1>
+        <h3>Quienes Somos</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid minus est laborum atque illo, ipsa alias corporis similique delectus vero quis nostrum minima ratione, tempora fugiat excepturi odio quae error? Impedit excepturi quisquam aperiam enim dolor doloremque voluptatem quasi a nihil aut ad odio vero, at, accusantium numquam fugit aspernatur reiciendis exercitationem non. Quisquam id similique quo natus distinctio, deleniti eius non quaerat officia vel ipsam nemo libero consequatur quidem iure, molestiae placeat cupiditate. Quibusdam, veniam porro!</p>
+    </main> -->
+    <main class="caja">
+
+        
+
+        <section class="cart-modal-container">
+            <button class="cerrar" title="Cerrar carrito">X</button>
+            
+            <p> Para agregar productos al carrito es muy facil, solo debes de escojer el producto dar click en el carrito y llenar la inforacion personal.</p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th colspan="2">Producto </th>
+                    <th>Precio</th>
+                    <th>Cant.</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <img src="img/products/bebe-nenuco.jpeg" alt="bebe nenuco"></td>
+                        <td>Bebe Nenuco</td>
+                        <td>$339.900</td>
+                        <td>1</td>
+                        <td>$339.900</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/camión-bomberos.jpeg" alt="camion bomberos"></td>
+                        <td>Camion Bomberos</td>
+                        <td>$159.900</td>
+                        <td>1</td>
+                        <td>$159.900</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/computador-didactico.jpeg" alt="computador didactico"></td>
+                        <td>Computador Didactico</td>
+                        <td>$143.903</td>
+                        <td>1</td>
+                        <td>$143.903</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/juego-de-mesa-risk.jpeg" alt="juego de mesa risk"></td>
+                        <td>Juego de mesa Risk</td>
+                        <td>$189.900</td>
+                        <td>1</td>
+                        <td>$189.900</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/products/set-musical.jpeg" alt="set musical"></td>
+                        <td>Set Musical</td>
+                        <td>$59.990</td>
+                        <td>1</td>
+                        <td>$59.990</td>
+                        <td> <button class="papelera">🗑</button> </td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"></td>
+                            <td>$893.593</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+            </table>
+            <p> Verifica la informacion del producto, todos los campos con * son obligatorios.</p>
+            <p>Dentro de 3 dias habiles estara llegando tu Alta Jueguete!</p>
+            <p>Gracias por confiar en nosotros</p>
+        </section>
+
+
+        <h1 class="Lula">Jugueteria Alta</h1>
+
+            <form>
+            <label for="name">Name</label>
+            <input id="nombre" required type="text" required>
+
+            <label for="price">Price</label>
+            <input id="precio" required type="number" required>
+
+            <label for="stock">Stock</label>
+            <input id="stock" type="number" required>
+
+            <label for="brand">Brand</label>
+            <select name="brand" id="marca" required>
+                <option value=" ">Select</option>
+                <option value="1">Hot Wheels</option>
+                <option value="2">Lego</option>
+                <option value="3">Hasbro</option>
+                <option value="4">Nenuco</option>
+                <option value="5">Disney</option>
+                <option value="6">Mattel</option>
+                <option value="7">Fisher Price</option>
+                <option value="8">Barbie</option>
+                <option value="9">Nerf</option>
+                <option value="10">Playskool</option>
+            </select>
+
+            <label for="category">Category</label>
+            <select name="category" id="categoria" required>
+                <option value=" ">Select</option>
+                <option value="1">Muñecas</option>
+                <option value="2">Coches</option>
+                <option value="3">Peluches</option>
+                <option value="4">Cocinas</option>
+                <option value="5">Barbies</option>
+                <option value="6">Kit de veterinaria</option>
+                <option value="7">Dinosaurios</option>
+                <option value="8">Juegos de mesa</option>
+                <option value="9">Juegos para bebes</option>
+                <option value="10">Computadores didacticos</option>
+            </select>
+
+            <label for="short description">Short description</label>
+            <textarea name="short description" id="descripción corta" cols="30" rows="10" maxlength="200" minlength="10" required></textarea>
+
+            <label for="long description">Long descripción</label>
+            <textarea name="long description" id="descripción larga" cols="30" rows="10" maxlength="2000" minlength="10" placeholder="Descripcion de los juguetes"></textarea>
+
+            <label>Free shipping</label>
+            <div id="envio">
+                <input type="radio" id="cargo" name="option" required>
+                <label for="cargo">Yes</label>
+
+                <input type="radio" id="cargo" name="option">
+                <label for="cargo">No</label>
+            </div>
+
+            <label>Age from and to</label>
+            <div id="edad">
+                <input type="number" min="0" max="100" id="edades" name="option" required>
+                <label for="edad"></label>
+            </div>
+
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="foto" required>
+
+            <input id="enviar" type="submit" value="Send" disabled>
+            </form> 
+
+        
+    
+</main>
+<footer>
+    <div class="footer-logo">
+    <img src="img/LOGOazul_page-0001.jpg" alt="logo">
+    <div>
+        <h2>Proyecto Integrador: Juguetería Cósmica</h2>
+        <p>Sara Minelly Rojas Lujan</p>
+    </div>
+    </div>
+    <div class="info-footer">
+            <div>
+                <ul>
+                    <li><a href="#"> Envios</a></li>
+                    <li><a href="#">Top 10 de los mas vendidos</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="create.html">Alta</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="about-us.html">Nosotros</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Términos</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Quieres trabajar con nosotros?</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <p> © 2023 Jugueteria Cosmica</p>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/modules/create.js"></script>
+</body>
+</html>
